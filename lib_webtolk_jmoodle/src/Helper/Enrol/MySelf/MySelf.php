@@ -7,12 +7,12 @@
  * @license       GNU/GPL3 http://www.gnu.org/licenses/gpl-3.0.html
  * @since         1.0.0
  */
-namespace Webtolk\JMoodle\Helper\Gradereport\Overview;
+namespace Webtolk\JMoodle\Helper\Enrol\MySelf;
 
 defined('_JEXEC') or die;
 use Webtolk\JMoodle\Interfaces\MethodHelperInterface;
 
-class Overview implements MethodhelperInterface
+class MySelf implements MethodhelperInterface
 {
     public function checkData(string $method, array $data = []): array
     {

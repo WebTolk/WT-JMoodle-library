@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @package       WT JMoodle Library
  * @version       1.0.0
@@ -420,13 +419,16 @@ class JMoodle
 	 */
 	private function getMethodHelperClass(string $method): MethodhelperInterface
 	{
-
-        /**
-         * @todo RENAME THE HELPER CLASS self because it is reserved. Do the condition here
-         */
 		$arr           = explode('_', $method);
 		$name_1        = ucfirst($arr[0]);
 		$name_2        = ucfirst($arr[1]);
+        if($name_2 == 'Self')
+        {
+            /**
+             *  Rename the helper class because 'self' is reserved for PHP.
+             */
+            $name_2 = 'My'.$name_2;
+        }
 		$classname     = $name_1 . "\\" . $name_2 . "\\" . $name_2;
 		$method_helper = __NAMESPACE__ . "\\Helper\\" . $classname;
 

@@ -3,7 +3,7 @@
 	<name>WT JMoodle library package</name>
 	<author>Sergey Tolkachyov</author>
 	<creationDate>December 2023</creationDate>
-	<packagename>lib_wt_jmoodle</packagename>
+	<packagename>wtjmoodle</packagename>
 	<version>1.0.0</version>
 	<url>https://web-tolk.ru</url>
 	<packager>Sergey Tolkachyov</packager>
@@ -15,7 +15,7 @@
 		<language tag="en-GB">language/ru-RU/pkg_lib_wt_jmoodle.sys.ini</language>
 	</languages>
 	<files>
-	   <folder type="library" id="pkg_lib_wt_jmoodle_library">lib_webtolk_jmoodle</folder>
-	   <folder type="plugin" id="pkg_lib_wtjmoodle_plugin" group="system">plg_system_wtjmoodle</folder>
+	   <folder type="library" id="pkg_lib_wt_jmoodle_library" method="upgrade">lib_webtolk_jmoodle</folder>
+	   <folder type="plugin" id="pkg_lib_wtjmoodle_plugin" group="system" method="upgrade">plg_system_wtjmoodle</folder>
 	</files>
 </extension>
