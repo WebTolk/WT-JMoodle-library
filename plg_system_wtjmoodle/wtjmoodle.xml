@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<extension type="plugin" method="upgrade" group="system">
+    <name>System - WT JMoodle Library</name>
+    <author>Sergey Tolkachyov</author>
+    <authorEmail>info@web-tolk.ru</authorEmail>
+    <authorUrl>https://web-tolk.ru/</authorUrl>
+	<creationDate>December 2023</creationDate>
+    <copyright>2023 Sergey Tolkachyov</copyright>
+    <license>GNU General Public License v3.0</license>
+    <version>1.0.0</version>
+    <description>JMoodle library settings</description>
+    <namespace path="src">Joomla\Plugin\System\Wtjmoodle</namespace>
+	<files>
+        <folder plugin="wtjmoodle">src</folder>
+        <folder>services</folder>
+    </files>
+    <languages>
+        <language tag="ru-RU">language/ru-RU/plg_system_wtjmoodle.ini</language>
+        <language tag="ru-RU">language/ru-RU/plg_system_wtjmoodle.sys.ini</language>
+        <language tag="en-GB">language/en-GB/plg_system_wtjmoodle.ini</language>
+        <language tag="en-GB">language/en-GB/plg_system_wtjmoodle.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field addfieldprefix="Joomla\Plugin\System\Wtjmoodle\Fields"
+                       type="plugininfo"
+                       name="plugininfo"/>
+                <field addfieldprefix="Webtolk\JMoodle\Fields"
+                       type="moodleinfo"
+                       name="moodleinfo"/>
+                <field type="url"
+                       name="moodle_host"
+                       label="PLG_WTJMOODLE_MOODLE_HOST"
+                       description="PLG_WTJMOODLE_MOODLE_HOST_DESC"
+                       hint="PLG_WTJMOODLE_MOODLE_HOST_HINT"/>
+                <field type="password"
+                       name="moodle_token"
+                       label="PLG_WTJMOODLE_MOODLE_TOKEN" showon="moodle_host!:"/>
+                <field type="note"
+                       label="PLG_WTJMOODLE_MOODLE_TOKEN_CREATE"
+                       description="PLG_WTJMOODLE_MOODLE_TOKEN_DESC"
+                       class="alert border border-info"/>
+            </fieldset>
+            <fieldset name="restapimethods" label="PLG_WTJMOODLE_REST_API_METHODS_LABEL" description="PLG_WTJMOODLE_REST_API_METHODS_DESC">
+                <field addfieldprefix="Webtolk\JMoodle\Fields"
+                       type="moodlerestapimethods"
+                       name="moodlerestapimethods"
+                       collapsible="true"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

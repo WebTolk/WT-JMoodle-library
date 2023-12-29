@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="library" method="upgrade">
+	<name>WebTolk JMoodle library</name>
+	<libraryname>Webtolk/JMoodle</libraryname>
+	<version>1.0.0</version>
+	<description>Moodle REST API methods for using Joomla. Connection library</description>
+	<creationDate>December 2023</creationDate>
+	<copyright>2023 Sergey Tolkachyov</copyright>
+	<license>GNU/GPL 3.0</license>
+	<author>Sergey Tolkachyov</author>
+	<authorEmail>info@web-tolk.ru</authorEmail>
+	<authorUrl>https://web-tolk.ru</authorUrl>
+	<namespace path="src">Webtolk\JMoodle</namespace>
+	<files>
+		<folder>src</folder>
+		<filename>jmoodle.xml</filename>
+	</files>
+</extension>
