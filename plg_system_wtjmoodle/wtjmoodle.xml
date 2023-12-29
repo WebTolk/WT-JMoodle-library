@@ -13,6 +13,7 @@
 	<files>
         <folder plugin="wtjmoodle">src</folder>
         <folder>services</folder>
+        <folder>sql</folder>
     </files>
     <languages>
         <language tag="ru-RU">language/ru-RU/plg_system_wtjmoodle.ini</language>
@@ -20,6 +21,16 @@
         <language tag="en-GB">language/en-GB/plg_system_wtjmoodle.ini</language>
         <language tag="en-GB">language/en-GB/plg_system_wtjmoodle.sys.ini</language>
     </languages>
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
+    <uninstall>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/uninstall.mysql.utf8.sql</file>
+        </sql>
+    </uninstall>
     <config>
         <fields name="params">
             <fieldset name="basic">
