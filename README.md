@@ -84,9 +84,9 @@ if (!array_key_exists('sitename', $result_jmoodle) || empty($result_jmoodle['sit
 }
 
 // All OK, we can access to Moodle data in Joomla
-$result_jmoodle['sitename'] = 'My awesome test Moodle'
-$result_jmoodle['release'] = 'Moodle 4.3 (Build: 20231009)'
-$result_jmoodle['userpictureurl'] = 'Here your special Joomla user in Moodle picture url'
+$result_jmoodle['sitename']; // 'My awesome test Moodle'
+$result_jmoodle['release']; // 'Moodle 4.3 (Build: 20231009)'
+$result_jmoodle['userpictureurl']; // 'Here your special Joomla user in Moodle picture url'
 
 // etc...
 
