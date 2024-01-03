@@ -248,3 +248,10 @@ And so on for Moodle webservices methods:
 - core_user_update_user_preferences
 - core_user_view_user_list
 - core_user_view_user_profile
+
+### Ready-made helper methods
+- Webtolk\JMoodle\Helper\Core\User
+- Webtolk\JMoodle\Helper\Enrol\Manual
+- 
+## Interfaces
+This folder contains interfaces for the library, which fix the structure of methods and their data for correct operation.
