@@ -18,4 +18,8 @@
 		<folder type="library" id="pkg_lib_wt_jmoodle_library" method="upgrade">lib_webtolk_jmoodle</folder>
 		<folder type="plugin" id="pkg_lib_wtjmoodle_plugin" group="system" method="upgrade">plg_system_wtjmoodle</folder>
 	</files>
+	<updateservers>
+		<server type="extension" priority="1" name="WT JMoodle library updates">https://web-tolk.ru/component/swjprojects/jupdate?element=wtjmoodle</server>
+	</updateservers>
+	<changelogurl>https://web-tolk.ru/jchangelog?element=wtjmoodle</changelogurl>
 </extension>
