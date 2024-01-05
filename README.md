@@ -130,7 +130,7 @@ A `collapsible="true"` attribute is optional. If it is not set you will see whol
 ### Helper class name
 The name of the helper class is formed dynamically in the method `getMethodHelperClass` based (file: `libraries\Webtolk\JMoodle\src\JMoodle.php`) on the name of the requested REST API Moodle method according to the following logic:
 - get the Moodle webserivec method name
-- explode it to parts by undescore `_`
+- explode it to parts by underscore `_`
 So the helper class for `core_webservice_get_site_info` will found in Webtolk\JMoodle\Helper\ **Core\Webservice** namespace - **Webtolk\JMoodle\Helper\Core\Webservice**.
 If the class name contains the word `Self`, we rename it to `MySelf`. So Helpers fo Moodle webservices `enrol_self_...` methods are placed in Enrol\**My**Self namespace - **Webtolk\JMoodle\Helper\Enrol\MySelf** - because the word Self is reserved in PHP. 
 ### Empty method helper class example 
