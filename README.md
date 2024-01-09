@@ -8,6 +8,7 @@ Native Joomla 4 / Joomla 5 PHP library for working with the Moodle REST API.
 
 # How to use Moodle connetction library in Joomla
 Video instruction and a little demo (in Russian).
+
 [![Youtube video instruction in Russian](https://img.youtube.com/vi/mEmSFFb3rTo/0.jpg)](https://www.youtube.com/watch?v=mEmSFFb3rTo)
 
 ## Install and configure Moodle and Joomla
