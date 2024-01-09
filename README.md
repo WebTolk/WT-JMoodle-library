@@ -1,10 +1,15 @@
 [![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)]() [![Status](https://img.shields.io/badge/Status-stable-green.svg)]() [![JoomlaVersion](https://img.shields.io/badge/Joomla-4.x-orange.svg)]() [![JoomlaVersion](https://img.shields.io/badge/Joomla-5.x-important.svg)]() [![Version](https://img.shields.io/badge/PHP-8.x-blue.svg)]()
+[![Version](https://img.shields.io/badge/Joomla_Extensions_Directory-red.svg)](https://extensions.joomla.org/extension/core-enhancements/coding-a-scripts-integration/wt-jmoodle-library/)
+
 # WT JMoodle library
 Native Joomla 4 / Joomla 5 PHP library for working with the Moodle REST API.
 ## Joomla System plugin for Moodle library settings
 ![image](https://github.com/WebTolk/WT-JMoodle-library/assets/6236403/5f794e15-a71e-4306-b8d0-00afc6dc495a)
 
 # How to use Moodle connetction library in Joomla
+Video instruction and a little demo (in Russian).
+[![Youtube video instruction in Russian](https://img.youtube.com/vi/mEmSFFb3rTo/0.jpg)](https://www.youtube.com/watch?v=mEmSFFb3rTo)
+
 ## Install and configure Moodle and Joomla
 - Install a JMoodle library in Joomla
 - Go to your Moodle and create token for Joomla

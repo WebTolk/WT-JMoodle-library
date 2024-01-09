@@ -4,10 +4,10 @@
     <author>Sergey Tolkachyov</author>
     <authorEmail>info@web-tolk.ru</authorEmail>
     <authorUrl>https://web-tolk.ru/</authorUrl>
-	<creationDate>December 2023</creationDate>
+	<creationDate>January 2024</creationDate>
     <copyright>2023 Sergey Tolkachyov</copyright>
     <license>GNU General Public License v3.0</license>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>JMoodle library settings</description>
     <namespace path="src">Joomla\Plugin\System\Wtjmoodle</namespace>
 	<files>

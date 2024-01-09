@@ -2,17 +2,17 @@
 <extension type="package" method="upgrade">
 	<name>WT JMoodle library package</name>
 	<author>Sergey Tolkachyov</author>
-	<creationDate>December 2023</creationDate>
+	<creationDate>January 2024</creationDate>
 	<packagename>wtjmoodle</packagename>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<url>https://web-tolk.ru</url>
 	<packager>Sergey Tolkachyov</packager>
 	<description>JMoodle library with plugin for library settings. For Joomla 4 and higher.</description>
 	<license>GNU GPL 3.0</license>
 	<scriptfile>script.php</scriptfile>
 	<languages>
-		<language tag="ru-RU">language/ru-RU/pkg_lib_wt_jmoodle.sys.ini</language>
-		<language tag="en-GB">language/ru-RU/pkg_lib_wt_jmoodle.sys.ini</language>
+		<language tag="ru-RU">language/ru-RU/pkg_wtjmoodle.sys.ini</language>
+		<language tag="en-GB">language/ru-RU/pkg_wtjmoodle.sys.ini</language>
 	</languages>
 	<files>
 		<folder type="library" id="pkg_lib_wt_jmoodle_library" method="upgrade">lib_webtolk_jmoodle</folder>
