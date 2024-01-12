@@ -1,7 +1,7 @@
 <?php
 /**
  * @package       WT JMoodle Library
- * @version       1.0.2
+ * @version       1.0.3
  * @Author        Sergey Tolkachyov, https://web-tolk.ru
  * @сopyright (c) January 2024 Sergey Tolkachyov. All rights reserved.
  * @license       GNU/GPL3 http://www.gnu.org/licenses/gpl-3.0.html
@@ -10,7 +10,7 @@
 namespace Webtolk\JMoodle\Helper\Tool\Mobile;
 
 defined('_JEXEC') or die;
-use Webtolk\JMoodle\Interfaces\MethodHelperInterface;
+use Webtolk\JMoodle\Interfaces\MethodhelperInterface;
 
 class Mobile implements MethodhelperInterface
 {
