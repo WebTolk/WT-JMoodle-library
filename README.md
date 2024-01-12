@@ -144,7 +144,7 @@ If the class name contains the word `Self`, we rename it to `MySelf`. So Helpers
 namespace Webtolk\JMoodle\Helper\Core\Create;
 
 defined('_JEXEC') or die;
-use Webtolk\JMoodle\Interfaces\MethodHelperInterface;
+use Webtolk\JMoodle\Interfaces\MethodhelperInterface;
 
 class Create implements MethodhelperInterface
 {
@@ -161,7 +161,7 @@ namespace Webtolk\JMoodle\Helper\Core\User;
 
 defined('_JEXEC') or die;
 
-use Webtolk\JMoodle\Interfaces\MethodHelperInterface;
+use Webtolk\JMoodle\Interfaces\MethodhelperInterface;
 
 class User implements MethodhelperInterface
 {
