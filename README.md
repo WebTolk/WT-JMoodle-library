@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)]() [![Status](https://img.shields.io/badge/Status-stable-green.svg)]() [![JoomlaVersion](https://img.shields.io/badge/Joomla-4.x-orange.svg)]() [![JoomlaVersion](https://img.shields.io/badge/Joomla-5.x-important.svg)]() [![Version](https://img.shields.io/badge/PHP-8.x-blue.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.0.2-blue.svg)]() [![Status](https://img.shields.io/badge/Status-stable-green.svg)]() [![JoomlaVersion](https://img.shields.io/badge/Joomla-4.x-orange.svg)]() [![JoomlaVersion](https://img.shields.io/badge/Joomla-5.x-important.svg)]() [![Version](https://img.shields.io/badge/PHP-8.x-blue.svg)]()
 [![Version](https://img.shields.io/badge/Joomla_Extensions_Directory-red.svg)](https://extensions.joomla.org/extension/core-enhancements/coding-a-scripts-integration/wt-jmoodle-library/)
 
 # WT JMoodle library
