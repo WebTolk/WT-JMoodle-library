@@ -1,1 +1,1 @@
-CREATE TABLE IF NOT EXISTS `dah2s_lib_jmoodle_users_sync` (`joomla_user_id` int(11) NOT NULL UNIQUE, `moodle_user_id` int(11) NOT NULL UNIQUE) DEFAULT CHARSET=utf8;
+CREATE TABLE IF NOT EXISTS `#__lib_jmoodle_users_sync` (`joomla_user_id` int(11) NOT NULL UNIQUE, `moodle_user_id` int(11) NOT NULL UNIQUE) DEFAULT CHARSET=utf8;
