@@ -1,9 +1,9 @@
 <?php
 /**
  * @package       WT JMoodle Library
- * @version       1.0.3
+ * @version       1.1.0
  * @Author        Sergey Tolkachyov, https://web-tolk.ru
- * @сopyright (c) January 2024 Sergey Tolkachyov. All rights reserved.
+ * @сopyright (c) March 2024 Sergey Tolkachyov. All rights reserved.
  * @license       GNU/GPL3 http://www.gnu.org/licenses/gpl-3.0.html
  * @since         1.0.0
  */
@@ -161,7 +161,7 @@ return new class () implements ServiceProviderInterface {
 				$element = strtoupper($adapter->getElement());
 				$type = strtoupper($type);
 				$html = '
-				<div class="row bg-white m-0">
+				<div class="row m-0">
 				<div class="col-12 col-md-8 p-0 pe-2">
 				<h2>'.$smile.' '.Text::_($element.'_AFTER_'.$type).' <br/>'.Text::_($element).'</h2>
 				'.Text::_($element.'_DESC');
@@ -176,6 +176,7 @@ return new class () implements ServiceProviderInterface {
 					<a class="btn btn-sm btn-outline-primary" href="https://web-tolk.ru" target="_blank"> https://web-tolk.ru</a>
 					<a class="btn btn-sm btn-outline-primary" href="mailto:info@web-tolk.ru"><i class="icon-envelope"></i> info@web-tolk.ru</a>
 				</p>
+				<p><a class="btn btn-danger w-100" href="https://t.me/joomlaru" target="_blank">' . Text::_($element . '_JOOMLARU_TELEGRAM_CHAT') . '</a></p>
 				'.Text::_($element."_MAYBE_INTERESTING").'
 				</div>
 
