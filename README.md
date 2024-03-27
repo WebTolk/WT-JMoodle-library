@@ -258,5 +258,6 @@ And so on for Moodle webservices methods:
 ### Ready-made helper methods
 - Webtolk\JMoodle\Helper\Core\User
 - Webtolk\JMoodle\Helper\Enrol\Manual
+- Webtolk\JMoodle\Helper\Core\Course
 ## Interfaces
 This folder contains interfaces for the library, which fix the structure of methods and their data for correct operation.
