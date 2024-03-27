@@ -1,9 +1,9 @@
 <?php
 /**
  * @package       WT JMoodle Library
- * @version       1.0.3
+ * @version       1.1.0
  * @Author        Sergey Tolkachyov, https://web-tolk.ru
- * @сopyright     January 2024 Sergey Tolkachyov. All rights reserved.
+ * @сopyright (c) March 2024 Sergey Tolkachyov. All rights reserved.
  * @license       GNU/GPL3 http://www.gnu.org/licenses/gpl-3.0.html
  * @since         1.0.0
  */
